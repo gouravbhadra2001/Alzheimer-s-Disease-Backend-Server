@@ -12,6 +12,11 @@ CORS(app)
 class_labels = ["Mild Demented", "Moderate Demented", "Non Demented", "Very Mild Demented"]
 uploaded_image = None
 
+@app.route('/', methods=['HEAD'])
+def root():
+    return '', 200
+
+
 @app.route('/upload', methods=['POST', 'GET'])
 def upload_file():
     global uploaded_image
