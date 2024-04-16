@@ -35,7 +35,7 @@ rich==13.7.1
 six==1.16.0
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
-tensorflow-cpu @ https://storage.googleapis.com/tensorflow/versions/2.16.1/tensorflow_cpu-2.16.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+tensorflow-cpu @ https://storage.googleapis.com/tensorflow/versions/2.16.1/tensorflow_cpu-2.16.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=8fde4a1a1515f3099119c2d71e1653aa6e7ae81ec58b7cb045cab5e5bb147b8b
 tensorflow-io-gcs-filesystem==0.36.0
 termcolor==2.4.0
 typing_extensions==4.11.0
